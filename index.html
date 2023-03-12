@@ -5,11 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
     <title>My resume</title>
   </head>
@@ -19,10 +22,10 @@
       <!-- Main -->
       <div class="main-content">
         <!-- About -->
-        <div>
+        <div class="about-container">
           <h2 class="my-profesional">Front-End Developer</h2>
-          <h1>Oleh Luzhniak</h1>
-          <p>
+          <h1 class="my-name">Oleh Luzhniak</h1>
+          <p class="my-descr">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
             ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
@@ -31,43 +34,60 @@
         </div>
 
         <!-- Project -->
-        <div>
-          <h3>Projects</h3>
-          <ol>
+        <div class="projects-container">
+          <h3 class="main-content-title">Projects</h3>
+          <ol class="project-list">
             <li class="project-item">
-              <a href="https://hellen.p.goit.global/"
-                >https://hellen.p.goit.global/</a
-              >..............[ HTML5, CSS3 ]
+              <a href="https://hellen.p.goit.global/" class="project-item-link">
+                https://hellen.p.goit.global/
+              </a>
+              <span class="project-item-descr">
+                ..................[ HTML5, CSS3 ]
+              </span>
             </li>
             <li class="project-item">
-              <a href="https://cryptohub.p.goit.global/"
-                >https://cryptohub.p.goit.global/</a
-              >........[ JavaScript ]
+              <a href="https://cryptohub.p.goit.global/" class="project-item-link">
+                https://cryptohub.p.goit.global/
+              </a>
+              <span class="project-item-descr">........[ JavaScript ]</span>
             </li>
             <li class="project-item">
-              <a href="https://kidslike.p.goit.global/"
-                >https://kidslike.p.goit.global/</a
-              >............[ React.js, Node.js ]
+              <a
+                href="https://kidslike.p.goit.global/"
+                class="project-item-link"
+              >
+                https://kidslike.p.goit.global/</a
+              >
+              <span class="project-item-descr">
+                ...............[ React.js, Node.js ]
+              </span>
             </li>
           </ol>
         </div>
 
         <!-- Work -->
-        <div>
-          <h3>Work Experience</h3>
+        <div class="work-experience-container">
+          <h3 class="main-content-title">Work Experience</h3>
 
           <!-- Company 1 -->
-          <div>
-            <h4>Front-End Developer Freelance</h4>
-            <p>September 2019 - up to now | Country</p>
-            <ul>
-              <li>
+          <div class="work-experience-place">
+            <h4 class="work-experience-position">
+              Front-End Developer
+              <span class="work-experience-company">Freelance</span>
+            </h4>
+            <p class="work-experience-period">
+              September 2019 - up to now | Country
+            </p>
+            <ul class="work-duties-list">
+              <li class="work-duties">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </li>
-              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-              <li>Risus commodo viverra maecenas.</li>
-              <li>
+              <li class="work-duties">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </li>
+              <li class="work-duties">Risus commodo viverra maecenas.</li>
+              <li class="work-duties">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod.
               </li>
@@ -75,56 +95,75 @@
           </div>
 
           <!-- Company 2 -->
-          <div>
-            <h4>Manager Banderogusak & Co.</h4>
-            <p>March 2015 - October 2018 | Country</p>
-            <ul>
-              <li>
+          <div class="work-experience-place">
+            <h4 class="work-experience-position">
+              Manager
+              <span class="work-experience-company"> Banderogusak & Co.</span>
+            </h4>
+            <p class="work-experience-period">
+              March 2015 - October 2018 | Country
+            </p>
+            <ul class="work-duties-list">
+              <li class="work-duties">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod labore et dolore magna aliqua.
               </li>
-              <li>Quis ipsum suspendisse ultrices gravida.</li>
-              <li>Risus commodo viverra maecenas.</li>
+              <li class="work-duties">
+                Quis ipsum suspendisse ultrices gravida.
+              </li>
+              <li class="work-duties">Risus commodo viverra maecenas.</li>
             </ul>
           </div>
 
           <!-- Company 3 -->
-          <div>
-            <h4>Manager BestUA Corp.</h4>
-            <p>June 2014 - February 2015 | Country</p>
-            <ul>
-              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-              <li>Quis ipsum suspendisse ultrices gravida.</li>
-              <li>Risus commodo viverra maecenas.</li>
+          <div class="work-experience-place">
+            <h4 class="work-experience-position">
+              Manager <span class="work-experience-company"> BestUA Corp.</span>
+            </h4>
+            <p class="work-experience-period">
+              June 2014 - February 2015 | Country
+            </p>
+            <ul class="work-duties-list">
+              <li class="work-duties">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </li>
+              <li class="work-duties">
+                Quis ipsum suspendisse ultrices gravida.
+              </li>
+              <li class="work-duties">Risus commodo viverra maecenas.</li>
             </ul>
           </div>
-
         </div>
 
         <!-- Education -->
-        <div>
-          <h3>Education</h3>
-          <h4>National University of Management</h4>
-          <p>Management</p>
-          <p>September 2009 - June 2014 | Country</p>
+        <div class="education-container">
+          <h3 class="main-content-title">Education</h3>
+          <h4 class="education-place">National University of Management</h4>
+          <p class="education-descr">Management</p>
+          <p class="education-period">September 2009 - June 2014 | Country</p>
         </div>
-
       </div>
 
       <!-- Sidebar -->
       <aside class="sidebar">
         <!-- Photo -->
-        <img src="./img/my_photo.jpg" alt="My Photo" width="300px" />
+        <img src="./img/my_photo.jpg" alt="My Photo" width="370px" />
 
         <!-- Contacts -->
         <div class="contacts-container">
           <h3 class="sidebar-title">Contacts</h3>
           <p class="contacts-item">
             <span class="contacts-type">C:</span>
-            <a href="tel:+388888888888" class="contacts-number">+38 888 888 88 88</a></p>
+            <a href="tel:+388888888888" class="contacts-number"
+              >+38 888 888 88 88</a
+            >
+          </p>
           <p class="contacts-item">
             <span class="contacts-type">E:</span>
-            <a href="mailto:t.goitinskiy@gmail.com" class="contacts-email">t.goitinskiy@gmail.com</a></p>
+            <a href="mailto:t.goitinskiy@gmail.com" class="contacts-email"
+              >t.goitinskiy@gmail.com</a
+            >
+          </p>
         </div>
 
         <!-- Tech skills -->
@@ -159,7 +198,7 @@
         <div class="tech-skills-container">
           <h3 class="sidebar-title">Soft Skills</h3>
           <ul class="skills-list">
-            <li class="skills-list-item"> 
+            <li class="skills-list-item">
               <span class="skills-list-item-text">Scrum</span>
             </li>
             <li class="skills-list-item">
@@ -173,7 +212,6 @@
             </li>
           </ul>
         </div>
-        
       </aside>
     </div>
   </body>
